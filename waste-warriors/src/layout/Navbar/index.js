@@ -10,7 +10,10 @@ const Navbar = () => {
     return (
 
         <div role='nav' className='nav-div'>
-            <NavLink style={{textDecoration: "none"}} to="/" end>Waste Warriors!</NavLink>
+            <div className='title-div'>
+                <NavLink  className="title-div" to="/" end>Waste Warriors!</NavLink>
+
+            </div>
             <nav>
 
                 <NavLink className={activeClass} to="/" end>Home</NavLink>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Navbar } from './layout'
-
+import {Home, Fridge, Login, Newsfeed, Recipes, Rewards} from './pages'
 
 function App() {
   return (
