@@ -1,0 +1,6 @@
+export { default as Home } from './Home'
+export { default as Fridge } from './Fridge'
+export { default as Login } from './Login'
+export { default as Newsfeed } from './Newsfeed'
+export { default as Recipes} from './Recipes'
+export { default as Rewards} from './Rewards'
